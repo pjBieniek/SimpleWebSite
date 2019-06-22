@@ -35,13 +35,14 @@ border-left: 0;
 margin-left: 0;
 padding-left: 0;
 }
+
 .content {
     background-color: #f3f3f3;
     padding-top: 50;
     display: flex;
     flex-flow: row wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 h3 {
@@ -101,4 +102,20 @@ footer {
     justify-content: space-evenly;
     margin-top: 100px;
 }
+
+p {
+border-bottom: solid 1px rgba(160, 160, 160, 0.3);
+font-family: "Raleway", Helvetica, sans-serif;
+font-size: 1.1em;
+font-weight: 400;
+letter-spacing: 0.25em;
+line-height: 1;
+}
+
+input, textarea {
+font-family: "Raleway", Helvetica, sans-serif;
+font-size: 0.7em;
+background: #f6f6f6;
+}
+
 
