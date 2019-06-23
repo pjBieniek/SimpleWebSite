@@ -1,4 +1,7 @@
 body {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: space-between;
 	background: #f3f3f3;
 }
 

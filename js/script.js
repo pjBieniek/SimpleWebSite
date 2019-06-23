@@ -3,7 +3,7 @@ function validateForm(){
     let email = document.contact.email.value;
     let comments = document.contact.comments.value;
     let nameRGX = /^[A-Z]{1}[a-z]{1,9}\s[A-Z]{1}[a-z]{1,9}$/;
-    let emailRGX = /^.{1,10}@.{1,10}\..{1,3}$/
+    let emailRGX = /^.{1,10}@.{1,10}\..{1,10}$/
 
     var nameResult = nameRGX.test(name);
     var emailResult = emailRGX.test(email);
