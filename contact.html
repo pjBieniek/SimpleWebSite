@@ -5,6 +5,7 @@
         <title>Simple Web Page</title>
         <meta charset="utf-8" />
         <link rel="stylesheet" href="css/style.css" />
+        <script src="js/script.js"></script>
     </head>
     <body>
     <header>
@@ -17,17 +18,17 @@
     </header>
     
     <div class="content">
-<form action="contactus.php" method="post">
+<form name="contact" method="post" action="#" onsubmit="return validateForm()">
 
     <p>Name:</p>
     <p><input type="text" name="name" value="Enter your name"></p>
 
     <p>Email:</p>
-    <p><input name="species" value="Give your email"></p>
+    <p><input name="email" value="Give your email"></p>
 
     <p><textarea name="comments" rows="5" cols="20">This is a simple form. You can send me a message here</textarea></p>
 
-    <p><input type="submit"></p>
+    <input type="submit" value="register">
 
 </form>
     </div>
